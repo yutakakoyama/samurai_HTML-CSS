@@ -3,8 +3,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	color: #333;
+	font-family: "YuMincho", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #332;
 	font-size: 13px;
 	line-height: 150%;
 }
@@ -26,6 +26,23 @@ body {
  #header h1 {
  	 margin: 0;
 	 padding: 0;
+	 position: relative;
+ }
+ 
+ #header h2 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 100px;
+  color: #ffffff;
+ }
+ 
+ #header h3 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 50px;
+  color: #ffffff;
  }
  
  #corridor {
@@ -67,7 +84,7 @@ body {
      color: #FFF;
      font-size: 20px;
      text-decoration: none;
-     background-color: green;
+     background-color: #f08080;
  }
  #nav ul li a:hover {
      filter: drop-shadow(10px 10px 10px black);
@@ -91,10 +108,10 @@ body {
  #main h2 {
      margin: 0 0 10px 0;
      padding: 3px 10px 3px 10px;
-     color: #FFF;
+     color: #663300;
      font-size: 16px;
      border-left: solid 10px #C00;
-     background: #F90 url(../images/main_h2.jpg) right top repeat-y;
+     background: #00ff7f url(../images/main_h2.jpg) right top repeat-y;
  }
  #main p {
      margin: 0;
@@ -135,7 +152,7 @@ body {
  #side {
      width: 85%;
      padding: 20px;
-     background-color: #F99;
+     background-color: #ffff99;
  }
  #side .box {
      margin: 0 auto 30px auto;
